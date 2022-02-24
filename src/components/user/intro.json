@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_user_intros",
+  "info": {
+    "displayName": "intro",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female"
+      ]
+    },
+    "country": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "birth": {
+      "type": "date"
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

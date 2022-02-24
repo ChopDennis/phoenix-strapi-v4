@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_employee_experiences",
+  "info": {
+    "displayName": "experience",
+    "icon": "business-time",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "seniority_years": {
+      "type": "integer",
+      "default": 0,
+      "required": true
+    },
+    "seniority_months": {
+      "type": "integer",
+      "default": 0,
+      "required": true
+    },
+    "begin_date": {
+      "type": "date",
+      "required": true
+    },
+    "end_date": {
+      "type": "date",
+      "required": true
+    },
+    "on_the_job": {
+      "type": "boolean",
+      "default": false
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "employee.intro"
+    }
+  }
+}

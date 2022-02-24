@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_location_cities_in_taiwans",
+  "info": {
+    "displayName": "cities-in-Taiwan",
+    "icon": "city",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "city_name": {
+      "type": "enumeration",
+      "enum": [
+        "Taipei",
+        "NewTaipei",
+        "Taoyuan",
+        "Taichung",
+        "Tainan",
+        "Kaohsiung",
+        "Keelung",
+        "Yilan",
+        "Hsinchu",
+        "Miaoli",
+        "Changhua",
+        "Nantou",
+        "Yunlin",
+        "Chiayi",
+        "Pingtung",
+        "Taitung",
+        "Hualien"
+      ],
+      "required": true
+    }
+  }
+}

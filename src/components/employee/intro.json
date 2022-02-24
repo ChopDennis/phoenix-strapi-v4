@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_employee_intros",
+  "info": {
+    "displayName": "Intro",
+    "icon": "at",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "job_title": {
+      "type": "string",
+      "required": true
+    },
+    "job_address": {
+      "type": "string",
+      "required": true
+    },
+    "job_type": {
+      "type": "enumeration",
+      "enum": [
+        "FullTime",
+        "Freelancer",
+        "Internship",
+        "PartTime",
+        "Temporary"
+      ],
+      "required": true
+    },
+    "company_name": {
+      "type": "string",
+      "required": true
+    },
+    "introduction": {
+      "type": "richtext"
+    }
+  }
+}

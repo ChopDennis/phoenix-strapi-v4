@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_employee_salaries",
+  "info": {
+    "displayName": "salary",
+    "icon": "money-bill-wave",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "upper_limit": {
+      "type": "integer",
+      "default": 0,
+      "required": true
+    },
+    "lower_limit": {
+      "type": "integer",
+      "default": 0,
+      "required": true
+    },
+    "payment_type": {
+      "type": "enumeration",
+      "enum": [
+        "monthly",
+        "hourly"
+      ],
+      "required": true
+    }
+  }
+}
